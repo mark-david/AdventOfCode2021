@@ -49,8 +49,10 @@ public class Day1 {
         int result = 0;
 
         for (int i = 0; i < input.size() - 3; i++){
-            sum1 = input.get(i) + input.get(i + 1) + input.get(i + 2);
-            sum2 = input.get(i + 1) + input.get(i + 2) + input.get(i + 3);
+//            sum1 = input.get(i) + input.get(i + 1) + input.get(i + 2);
+//            sum2 = input.get(i + 1) + input.get(i + 2) + input.get(i + 3);
+            sum1 = input.get(i);
+            sum2 = input.get(i + 3);
             System.out.println(sum2 + " > " + sum1);
             if (sum2 > sum1){
                 result++;
